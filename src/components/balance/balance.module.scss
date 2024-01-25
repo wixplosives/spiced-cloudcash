@@ -1,0 +1,21 @@
+@import '../../styles/color';
+@import '../../styles/media';
+@import '../../styles/spacing';
+
+.content {
+    @media only screen and (min-width: #{$media-mobile + 1}) and (max-width: #{$media-tablet}) {}
+}
+
+.creditCardSection {}
+
+.creditCard {}
+
+.details {
+    flex-grow: 1;
+    display: flex;
+    min-width: 12.5rem;
+    text-align: end;
+    align-items: end;
+    justify-content: space-evenly;
+    gap: 20px;
+}
